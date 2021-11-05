@@ -2,6 +2,6 @@
 
 class Main {
   static function main() {
-    Sys.println("hwjkeeh");
+    Sys.println(Sys.programPath());
   }
 }
