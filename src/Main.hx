@@ -2,6 +2,6 @@
 
 class Main {
   static function main() {
-    Sys.println(Sys.programPath());
+    Sys.println("haxe:) " + Sys.programPath());
   }
 }
