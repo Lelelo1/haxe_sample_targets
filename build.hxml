@@ -4,6 +4,7 @@
 --java binJava
 
 --next
+-lib hxnodejs
 --class-path src
 -main Main
 --js binJS/main.js

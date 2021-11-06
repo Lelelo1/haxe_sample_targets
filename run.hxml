@@ -2,4 +2,5 @@
 
 # potentially create this file by running build.hxml, at the end of it.
 
--cmd java -jar bin/Main.jar
+-cmd java -jar binJava/Main.jar
+-cmd node binJS/Main.js
