@@ -15,5 +15,10 @@
 --next
 --class-path src
 -main Main
--D dll
+--python bin/binPython/main.py
+
+--next
+--class-path src
+-main Main
+#-D dll
 --cs bin/binCSharp
