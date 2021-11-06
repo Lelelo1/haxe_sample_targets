@@ -1,4 +1,9 @@
 --class-path src
 -main Main
 
---java bin
+--java binJava
+
+--next
+--class-path src
+-main Main
+--js binJS/main.js
