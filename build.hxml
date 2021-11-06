@@ -1,10 +1,19 @@
+
+# can't remove bin like this, it prevents binJava to be built... 
+#-cmd rm -r bin
+
 --class-path src
 -main Main
-
---java binJava
+--java bin/binJava
 
 --next
 -lib hxnodejs
 --class-path src
 -main Main
---js binJS/main.js
+--js bin/binJS/main.js
+
+--next
+--class-path src
+-main Main
+-D dll
+--cs bin/binCSharp

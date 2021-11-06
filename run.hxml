@@ -2,5 +2,15 @@
 
 # potentially create this file by running build.hxml, at the end of it.
 
--cmd java -jar binJava/Main.jar
--cmd node binJS/Main.js
+-cmd java -jar bin/binJava/Main.jar
+-cmd node bin/binJS/Main.js
+
+# can't be done directly on mac atleast - 'dotnet' needs some .net app files
+#-cmd dotnet bin/binCSharp/bin/Main.dll
+
+# running C# source code
+-cmd cd bin/binCSharp/src
+# dotnet project files to run source code
+-cmd dotnet new console --force
+-cmd rm Program.cs
+-cmd dotnet run Main.cs
